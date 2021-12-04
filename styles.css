@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Valorant";
+  src: url("./fonts/valorant.ttf");
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 48px;
+}
+
+li {
+  margin-top: 4px;
+}
+
+.header {
+  height: 94px;
+  color: white;
+  background-image: url("./img/bg-header.jpg");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.header img {
+  height: 78px;
+}
+
+.header .group {
+  margin-left: 16px;
+  font-family: "Valorant";
+  font-size: 64px;
+  line-height: 64px;
+  transform: translateY(4px);
+}
+
+.content {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.content .member {
+  position: relative;
+  width: 300px;
+  height: fit-content;
+  min-height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-radius: 4px;
+}
+
+.content .member:hover {
+  transform: scale(1.05);
+  transition: transform 1s;
+}
+
+.member .avatar-wrapper {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.member .avatar {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dat .avatar {
+  background-image: url("./img/dat.jpg");
+}
+
+#phuc .avatar {
+  background-image: url("./img/phuc.png");
+}
+
+#hoang .avatar {
+  background-image: url("./img/hoang.png");
+}
+
+#dat .label {
+  position: absolute;
+  top: 250px;
+  left: -8px;
+  color: white;
+  background-color: indianred;
+  padding: 8px;
+  font-weight: 600;
+}
+
+.member .info {
+  padding: 8px;
+}
+
+.info .name {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info .social {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid lightgray;
+}
+
+.social a {
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.social a i {
+  font-size: 24px;
+}
+
+.birthday,
+.gender,
+.address,
+.mssv,
+.classroom,
+.department {
+  margin-bottom: 12px;
+}
+
+.department,
+.like,
+.talent {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid lightgray;
+}
+
+.info .title {
+  margin-right: 4px;
+  font-weight: 600;
+}
+
+.info .material-icons {
+  color: salmon;
+  margin-right: 8px;
+  transform: translateY(-1px);
+}
+
+.reason {
+  margin-top: 12px;
+}
+
+.footer {
+  color: white;
+  background-color: #333;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-weight: 500;
+}
